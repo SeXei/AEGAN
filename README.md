@@ -1,7 +1,7 @@
 # A highly sensitive model based on graph neural networks for enzyme key catalytic residues prediction  
 A new enzyme catalytic sites prediction model use new designed Adaptive Edge-Gated Graph Attention Neural Network(AEGAN) to process both sequence and structure features of proteins at different levels was developed here.  
 
-![image](fig2a_AEGAN.png)
+![image](abstract.png)
 
 ## Requirements  
   
