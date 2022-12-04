@@ -39,7 +39,7 @@ psiblast==2.12.0+
     - `PC` benchmark dataset
   - `-t`:(optional) specify where the dataset will be saved
   - `-d`:database path used for BLAST alignment
-### train a model
+### Train a model
 - `cd AEGAN/code`, and use train.py to train a model:
     `python train.py -sm model-saved-path`  
    there are some parameters you can choose:  
@@ -52,7 +52,7 @@ psiblast==2.12.0+
    - `--accelerator`: Uesd device to train model (default:gpu)  
         - `cpu`:use cpu to train model
         - `gpu`:use gpu to train model
-### test model
+### Test model
 - `cd AEGAN/code`, and use validate.py to test model's performance on datasets:  
 `python validate.py --model trained-model-path`  
 - if you haven't trained a model yet, you can use the model we've trained to test it:  
