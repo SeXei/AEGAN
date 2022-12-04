@@ -1,8 +1,0 @@
-alpha: 0.3
-dropout: 0.5
-edgefea: 35
-head: 3
-layer: 24
-lr_rate: 0.01
-nodefea: 36
-weight_decay: 0.0001
