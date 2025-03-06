@@ -29,14 +29,6 @@ psiblast==2.12.0+
   `DataProcess.py -s uni14230 -d your-database-path`  
   there are some parameters you can choose:  
   - `-s`:specifies which dataset to create
-    - `uni14230` train dataset
-    - `uni3175` test dataset
-    - `EF_fold` benchmark dataset
-    - `EF_family` benchmark dataset
-    - `EF_superfamily` benchmark dataset
-    - `HA_superfamily` benchmark dataset
-    - `NN` benchmark dataset
-    - `PC` benchmark dataset
   - `-t`:(optional) specify where the dataset will be saved
   - `-d`:database path used for BLAST alignment
 ### Train a model
@@ -65,14 +57,7 @@ there are also some parameters you can choose:
         - `EP`:trained model which features exclude PSSM
         - `EAT`:trained model which features exclude Atchley
         - `EAM`:trained model which features exclude AtomModel
-    - `--testset`:Test dataset (default:uni3175)  
-        - `uni3175`
-        - `EF_fold`
-        - `EF_family`
-        - `EF_superfamily`
-        - `HA_superfamily`
-        - `NN`
-        - `PC`
+    - `--testset`:Test dataset
     - `--lack`:specify which feature is missing
         - `PSSM`
         - `Atchley`
